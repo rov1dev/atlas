@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/contact-bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-div {
+    color: rgb(52, 166, 52);
+}
+
+.left-div {
+    color: white;
+}
+
+.left-div h1 {
+    font-size: 35px;
+}
+
+.left-div p {
+    font-size: 25px;
+}
+.a1 input {
+    width: 235px;
+    height: 30px;
+    border: 3px solid rgb(52, 166, 52);
+    border-radius: 7px;
+    background: none;
+    margin: 10px ;
+}
+.a2 input {
+    width: 235px;
+    height: 30px;
+    border: 3px solid rgb(52, 166, 52);
+    border-radius: 7px;
+    background: none;
+    margin: 10px ;
+}
+.area {
+    border: 3px solid rgb(52, 166, 52);
+    border-radius: 7px;
+    background: none;
+    margin: 10px;
+}
+.btn {
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(52, 166, 52);
+}
+.future{
+    display: flex;
+    justify-content: space-evenly;
+}
